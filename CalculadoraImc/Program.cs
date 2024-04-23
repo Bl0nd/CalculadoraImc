@@ -42,3 +42,11 @@ else
 {
     classificacao = "Obesidade Grau 3";
 }
+
+//Mostrar o resultado na tela
+Console.Clear();
+Console.WriteLine("Nome: " + nome);
+Console.WriteLine("Peso: " + peso);
+Console.WriteLine("Altura: " + altura);
+Console.WriteLine("IMC: " + imc);
+Console.WriteLine("Classificação: " + classificacao);
