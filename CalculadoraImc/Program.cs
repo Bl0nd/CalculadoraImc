@@ -48,5 +48,5 @@ Console.Clear();
 Console.WriteLine("Nome: " + nome);
 Console.WriteLine("Peso: " + peso);
 Console.WriteLine("Altura: " + altura);
-Console.WriteLine("IMC: " + imc);
+Console.WriteLine("IMC: " + imc.ToString("F2"));
 Console.WriteLine("Classificação: " + classificacao);
